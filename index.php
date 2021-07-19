@@ -157,6 +157,10 @@
  ['Català',          ['ca-ES']],
  ['Čeština',         ['cs-CZ']],
  ['Deutsch',         ['de-DE']],
+ ['தமிழ்',            ['ta-IN', 'இந்தியா'],
+                     ['ta-SG', 'சிங்கப்பூர்'],
+                     ['ta-LK', 'இலங்கை'],
+                     ['ta-MY', 'மலேசியா']],
  ['English',         ['en-AU', 'Australia'],
                      ['en-CA', 'Canada'],
                      ['en-IN', 'India'],
@@ -414,7 +418,7 @@ function showButtons(style) {
 <script type="text/javascript">
   $('#googletranslate').bind("DOMSubtreeModified",function(){
     var temptxt=$("#googletranslate").text();
-         responsiveVoice.speak(temptxt);
+        // responsiveVoice.speak(temptxt);
 
   });
 </script>
